@@ -1,0 +1,102 @@
+============================================================
+EMAIL HEADERS (DEFANGED)
+Sample: sample-3864.eml
+Purpose: Phishing Email Investigation
+============================================================
+
+Received: from SA1P223MB0791.NAMP223.PROD.OUTLOOK.COM (::1)
+        by LV3P223MB0968.NAMP223.PROD.OUTLOOK.COM
+        with HTTPS;
+        Fri, 30 Aug 2024 18:01:02 +0000
+
+ARC-Seal: i=2;
+        a=rsa-sha256;
+        s=arcselector10001;
+        d=microsoft.com;
+        cv=pass;
+
+ARC-Message-Signature: i=2;
+        a=rsa-sha256;
+        c=relaxed/relaxed;
+        d=microsoft.com;
+
+ARC-Authentication-Results:
+        spf=pass
+        sender ip=52[.]100[.]0[.]236
+        smtp.mailfrom=ali001[.]sarakzit[.]za[.]com
+
+        dkim=pass
+
+        dmarc=none
+
+Received:
+        from PH7PR17CA0007.namprd17.prod.outlook.com
+        by SA1P223MB0791.NAMP223.PROD.OUTLOOK.COM
+        Fri, 30 Aug 2024 18:01:00 +0000
+
+Received:
+        from SN1PEPF000252A2.namprd05.prod.outlook.com
+        by PH7PR17CA0007.outlook.office365.com
+        Fri, 30 Aug 2024 18:01:00 +0000
+
+Authentication-Results:
+        SPF=PASS
+        DKIM=PASS
+        DMARC=NONE
+
+Received-SPF:
+        Pass
+        sender=52[.]100[.]0[.]236
+        helo=APC01-PSA-obe.outbound.protection.outlook.com
+
+Received:
+        from APC01-PSA-obe.outbound.protection.outlook.com
+        (52[.]100[.]0[.]236)
+
+DKIM-Signature:
+        d=ali001[.]sarakzit[.]za[.]com
+
+Authentication-Results-Original:
+        dkim=none
+        dmarc=none
+
+From:
+        UPS Partner
+        <Hoffman_John_49321@ali001[.]sarakzit[.]za[.]com>
+
+Return-Path:
+        Hoffman_John_49321@ali001[.]sarakzit[.]za[.]com
+
+Reply-To:
+        (Not Present)
+
+Subject:
+        Exclusive UPS Partnership Opportunity - Unlock Your Earnings!
+
+Date:
+        Fri, 30 Aug 2024 18:00:52 +0000
+
+Message-ID:
+        <ZF3lf1bGTw-Ct-Y9ADdP_oRwS.P5LqQmTHg-__Ip@z2yyC1ExTh0IOHNsB61tveiBpfZxNHujI5BuousKcXkrDsVLvUfIU837cF6wP0KWIxJWk2lBk9CLkVtcO0JEgwb.dcccd.edu>
+
+X-Mailer:
+        V620I
+
+X-Sender-IP:
+        52[.]100[.]0[.]236
+
+X-SID-Result:
+        PASS
+
+X-MS-Exchange-Organization-SCL:
+        5
+
+Content-Type:
+        text/html
+
+MIME-Version:
+        1.0
+
+============================================================
+END OF EMAIL HEADERS
+============================================================
