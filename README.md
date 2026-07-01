@@ -36,7 +36,7 @@ This repository does **not** re-host the sample as a live, openable `.eml` file 
 .
 ├── README.md
 ├── report/
-│   └── SOC_Phishing_Investigation_Report.md      # Full written investigation report
+│   └── Email_Phishing_Investigation_Report.pdf      # Full written investigation report
 ├── evidence/
 │   └── email-headers-defanged.txt                # Full header dump, URLs defanged (hxxp / [.])
 └── screenshots/
@@ -93,7 +93,7 @@ This repository does **not** re-host the sample as a live, openable `.eml` file 
 | URL Shortener | `t[.]co/f9tVtkdJm3` | Malicious redirect used in this campaign |
 | Sender | `Hoffman_John_49321@ali001.sarakzit[.]za.com` | Phishing sender |
 
-Full IOC table, screenshots, and analyst reasoning for each indicator are in [`report/SOC_Phishing_Investigation_Report.md`](./report/SOC_Phishing_Investigation_Report.md).
+Full IOC table, screenshots, and analyst reasoning for each indicator are in [`report/SOC_Phishing_Investigation_Report.md`](.report/Email_Phishing_Investigation_Report.pdf).
 
 ---
 
